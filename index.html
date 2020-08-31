@@ -7,11 +7,18 @@
   <body>
     <div class="container center">
       <h1 class="center title">TODO App</h1>
+      <div class="contenedorAlerta">
+        <span id="alerta" class="correcto"></span>
+      </div>
+      
       <div class="flow-right controls">
+        
+        <input id="tarea" placeholder="Nombre tarea">
         <span>Item count: <span id="item-count">0</span></span>
         <span>Unchecked count: <span id="unchecked-count">0</span></span>
       </div>
-      <button class="button center" onClick="addTodo()">Agregar Tarea</button>
+        <button class="button center" type="submit" onClick="addTodo(tarea.value)">Agregar Tarea</button>
+      
       <ul id="todo-list" class="todo-list"></ul>
     </div>
     <script src="./script.js"></script>

@@ -32,6 +32,21 @@ ul {
   background-color: white;
   height: 100vh;
 }
+.error{
+  background-color: red;
+}
+.correcto{
+  width: 50vw;
+  text-align: center;
+  margin-left: 25vw;
+  margin-bottom: 3vh;
+}
+.contenedorAlerta{
+  width: 50vw;
+  text-align: center;
+  margin-left: 25vw;
+  margin-bottom: 3vh;
+}
 
 .title, .controls, .button {
   flex: none;
@@ -39,6 +54,7 @@ ul {
 
 .button {
   padding: 10px 20px;
+  margin-top: 5vh;
 }
 
 .todo-list {
